@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weaf — Per un soffio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="nav-logo-mark"><img src="logo_mark.svg" alt="Weaf" /></div>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── MENU OVERLAY ── -->
+  <div class="menu-overlay" id="menuOverlay">
+    <nav class="menu-links">
+      <a href="#superpotere">Come funziona</a>
+      <a href="#manifesto">Il manifesto</a>
+      <a href="#cta">Negozio</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+    <div class="menu-foot">
+      <span>Mendrisio, Svizzera</span>
+      <span>info@weaf.ch</span>
+    </div>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-eyebrow">Mendrisio, Svizzera — 2026</div>
+    <img class="hero-title" id="heroTitle" src="logo_scritto.svg" alt="WEAF" />
+    <canvas id="threeCanvas"></canvas>
+    <div class="hero-scroll-hint" id="scrollHint">
+      <span>Scorri</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── SCROLL STAGE (animazione 3D) ── -->
+  <section id="scrollStage">
+    <div class="stage-sticky">
+
+      <!-- Storia — sinistra -->
+      <div class="stage-storia">
+        <span class="storia-label">La storia</span>
+        <p class="storia-text">Tutto comincia alla SUPSI di Mendrisio, quasi per caso. Un gruppo di ricercatori stava studiando la nutrizione delle piante in ambienti idroponici nessun piano commerciale, solo curiosità scientifica. Durante gli esperimenti, qualcosa di inatteso: le piante trattate con alcune formulazioni non solo guarivano, ma diventavano più forti di prima. Da quel risultato anomalo annotato su un quaderno di laboratorio, nacque WEAF un prodotto naturale che riequilibra, rinforza e riporta in vita le piante. Dalla SUPSI al mercato, con tutta la serietà della ricerca e un pizzico di quella magia che solo la natura sa fare.</p>
+      </div>
+
+      <!-- Frasi emozionali — destra -->
+      <div class="stage-messages">
+        <p class="testo-emozionale">“Mi hai riportata<br>in vita.”</p>
+        <p class="testo-emozionale">“Il tuo soffio<br>sa di cura.”</p>
+        <p class="testo-emozionale">“Ero secca.<br>Ora sono qui.<br>Grazie.”</p>
+        <p class="testo-emozionale">Cit.<br>la tua pianta</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SUPERPOTERE ── -->
+  <section id="superpotere">
+    <div class="super-inner">
+      <div class="super-label">Il superpotere</div>
+      <div class="super-steps">
+        <div class="super-step" data-step="1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Mastica Weaf</h3>
+            <p>Apri il pack. Prendi una cicca. Mastica. Il gusto si attiva in secondi.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="super-step" data-step="2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Ottieni il soffio</h3>
+            <p>Hai 20 minuti esatti. Il soffio curativo è tuo finché dura il gusto.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="super-step" data-step="3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Salva le tue piante</h3>
+            <p>Soffia su foglie malate o secche. Guardalo accadere. La natura ringrazia.</p>
+          </div>
+        </div>
+      </div>
+      <div class="super-payoff-block">
+        <div class="payoff-line"></div>
+        <span class="payoff-text">PER UN SOFFIO</span>
+        <div class="payoff-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── MANIFESTO ── -->
+  <section id="manifesto">
+    <div class="manifesto-inner reveal">
+      <div class="manifesto-col-left">
+        <span class="manifesto-tag">Natura · Rinascita · Sostenibilità</span>
+      </div>
+      <div class="manifesto-col-right">
+        <p class="manifesto-text">
+          Weaf è un nuovo modo di prendersi cura delle piante, dove natura, semplicità ed esperienza si incontrano. Rendiamo la cura del verde più naturale e accessibile creando un rapporto più diretto e armonioso tra persone e natura.
+        </p>
+        <p class="manifesto-subtext">
+          Immaginiamo un futuro in cui prendersi cura delle piante diventa un gesto quotidiano e personale.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="cta-inner">
+      <div class="cta-header reveal">
+        <h2 class="cta-title">Dove vuoi andare?</h2>
+      </div>
+      <div class="cta-buttons">
+        <button class="cta-btn cta-btn--primary">
+          <span class="btn-label">Negozio</span>
+          <span class="btn-sub">Acquista Weaf</span>
+          <div class="btn-arrow">→</div>
+        </button>
+        <button class="cta-btn cta-btn--outline">
+          <span class="btn-label">Collabora</span>
+          <span class="btn-sub">Partner &amp; Brand</span>
+          <div class="btn-arrow">→</div>
+        </button>
+        <button class="cta-btn cta-btn--menta">
+          <span class="btn-label">Lavora con noi</span>
+          <span class="btn-sub">Join Weaf</span>
+          <div class="btn-arrow">→</div>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── NEWSLETTER ── -->
+  <section id="newsletter">
+    <div class="nl-inner">
+      <p class="nl-label">Rimani nel verde</p>
+      <h2 class="nl-title reveal">Ricevi il soffio<br>prima degli altri.</h2>
+      <form class="nl-form" onsubmit="handleNewsletterSubmit(event)">
+        <input type="email" placeholder="la tua email" class="nl-input" required />
+        <button type="submit" class="nl-btn">Iscriviti</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo-mark"><img src="logo_mark.svg" alt="Weaf" /></div>
+        <div class="footer-contacts">
+          <span>info@weaf.ch</span>
+          <span>+41767062180</span>
+          <span>Via foglia 6, 6850 Mendrisio (CH)</span>
+        </div>
+      </div>
+      <div class="footer-center">
+        <div class="footer-social">
+          <a href="#" class="footer-social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            www.weaf.ch
+          </a>
+          <a href="#" class="footer-social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            weaf_
+          </a>
+          <a href="#" class="footer-social-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+            Weaf.ita
+          </a>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Termini</a>
+          <a href="#">Cookie</a>
+        </div>
+        <p class="footer-copy">© 2026 Weaf SA — Mendrisio, Svizzera</p>
+      </div>
+    </div>
+    <div class="footer-bottom-bar">
+      <span class="footer-payoff-big">PER UN SOFFIO</span>
+    </div>
+  </footer>
+
+  <!-- Librerie locali -->
+  <script src="libs/three.min.js"></script>
+  <script src="libs/GLTFLoader.js"></script>
+  <script src="libs/gsap.min.js"></script>
+  <script src="libs/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Hamburger menu toggle -->
+  <script>
+    const hb=document.getElementById('hamburger');
+    const ov=document.getElementById('menuOverlay');
+    hb.addEventListener('click',()=>{hb.classList.toggle('open');ov.classList.toggle('open');document.body.classList.toggle('menu-active');});
+    document.querySelectorAll('.menu-links a').forEach(a=>a.addEventListener('click',()=>{hb.classList.remove('open');ov.classList.remove('open');document.body.classList.remove('menu-active');}));
+  </script>
+
+</body>
+</html>
